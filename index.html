@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        #body {
+            background-color: white;
+        }
+
+    #nav {   
+           
+            max-width: 1517px;
+            margin-left: 0px;
+            margin-top: 0%;
+            padding-top: 30px;
+           
+            background-color: black
+        }
+
+        #text {
+            max-width: 200px;
+            max-height: 30px;
+        }
+
+        .background {
+
+            background-image: url("/image.jpg");
+            background-size: cover;
+            width:  1517px; 
+            height: 1300px;
+            margin-top: -19px;
+        }
+        <!-- 1218  -->
+        #background {
+            margin-top: -20px;
+            position: relative;
+            display: inline-block;
+        }
+
+        #written {
+            position: absolute;
+            top: 90px;
+            /* Adjust the position as needed */
+            left: 50px;
+            /* Adjust the position as needed */
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+
+        #name {
+            margin-top: 70px;
+            margin-left: 60px;
+            font-size: 110px;
+            color: white;
+        }
+
+        #learn {
+            color: white;
+            margin-left: 60px;
+        }
+
+        #img {
+            margin-left: 1000px;
+            
+            margin-top: -150px;
+        }
+        #panel{
+            
+            margin-top: 350px;
+        }
+    </style>
+
+
+</head>
+
+<body id="body">
+
+    <!-- Navbar -->
+    <div id="nav" class="container">
+        <ul class="list-unstyled">
+            <div style=" display: flex; color: white; justify-content: space-between ">
+                <li><a class="text-decoration-none" href="#">
+                        <h3 style="color: white;"><i class="bi-house"></i>Home</h3>
+                    </a> </li>
+                <li><a class="text-decoration-none" href="#">
+                        <h3 style="color:white;"><i class="bi-file-earmark-person"></i>About Us</h3>
+                    </a></li>
+                <li><a class="text-decoration-none" href="#">
+                        <h3 style="color: white;"><i class="bi-person-lines-fill"></i>Contact US</h3>
+                    </a></li>
+                <li><a class="text-decoration-none " href="#">
+                        <h3 style="color: white;">Search <input id="text" type="text"> </h3>
+                    </a></li>
+            </div>
+        </ul>
+    </div>
+
+    <!-- background img  -->
+
+    <div id="background">
+        <!-- Heading  -->
+        <div id="written">
+            <h1 id="name">SAHIL WALLU</h1>
+            <div id="learn" class="text-container">
+                <span style="font-size:40px; color: white; " class="constant-word"><b> Learn: </b> </span>
+                <span class="changing-word" style="font-size:30px;">Programer</span>
+            </div>
+            <div><img id="img" class="rounded-circle shadow-4-strong" alt="avatar2" style="height: 400px;"
+                    src="./photos/DSC_8246-02.jpeg" /></div>
+                    
+        
+                    <!-- Pannel -->
+                    <div id="panel" class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                         <h1 style="text-align: center;">Education</h1>
+                                    </div>
+                                    <div class="panel-body" style="font-size: 25px;">
+                                        <ul>
+                                           <li>10th Pass CBSE Board</li>
+                                           <li>12th Pass CBSE Board</li>
+                                           <li>3 Year in Rayat Bahra University</li>
+                                           <li>HTML</li>
+                                           <li>CSS</li>
+                                           <li>JAVASCRIPT</li>
+                                           <li>JAVA</li>
+                                        </ul>
+                                    </div>
+                                      </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="panel panel-success">
+                                    <div class="panel-heading">
+                                         <h1 style="text-align: center;">About US</h1>
+                                    </div>
+                                    <div class="panel-body  " style="font-size: 15px; margin-left: 40px;">
+                                       <p>Mission:
+                                        B.Tech Computer Science Engineers are driven by a mission to harness the power of technology and computer systems to solve complex problems, enhance user experiences, and advance society. They are at the forefront of innovation, developing cutting-edge software and technologies that shape the digital world we live in.
+                                        
+                                        Education:
+                                        B.Tech Computer Science Engineers undergo a comprehensive education that blends theoretical knowledge with hands-on practical experience. Their curriculum covers a wide array of topics, including programming languages, data structures, algorithms, database management, operating systems, artificial intelligence, machine learning, and software engineering principles.
+                                        
+                                        </div>
+                                      </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="panel panel-warning">
+                                    <div class="panel-heading">
+                                         <h1 style="text-align: center; ">Address</h1>
+                                    </div>
+                                    <div  class="panel-body" style="margin-left: 90px;">
+                                        <ul>
+                                            <li>#6250</li>
+                                            <li>Sector: 56 </li>
+                                            <li>Chandigarh</li>
+                                            <li>Near: Sport Complex</li>
+                                            <li>Contact: 7986254282</li>
+                                            <li>Gmail:<a href="">sahilm16ump@gmail.com</a></li>
+                                        </ul>
+                                    </div>
+                                      </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+        </div>
+
+        <img class="background" src="https://i.pinimg.com/originals/cf/11/e8/cf11e83a4e46a2c96adbf3496545e654.jpg"
+            alt="">
+
+    </div>
+    <script src="./script.js"></script>
+   
+</body>
+
+</html>
